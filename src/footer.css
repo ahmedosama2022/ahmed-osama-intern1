@@ -1,0 +1,83 @@
+.footer{
+    padding-top: 20px;
+    background-color: #0a1e33;
+    color: #777;
+    position: relative;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+
+
+.topp{
+    display: flex;
+    justify-content: space-between;
+}
+.topp .icoo{
+ font-size: 40px;
+ background-color: #cec9c9;
+ color: black;
+ border-radius: 50px;
+ margin-left: 10px;
+ padding: 10px;
+ 
+}
+.bootom{
+   align-items: center;
+   text-align: center;
+}
+.footer span{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-style: italic;
+   
+    
+}
+
+.tet{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   text-align: center;
+}
+.tet p{
+    margin-left: 20px;
+}
+@media only screen and 
+(max-width: 908px) {
+    .topp{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .ibcv{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+   .bootom {
+    position: relative;
+    left: 10px;
+   }
+}
+@media only screen and 
+(max-width: 1008px) {
+   .bootom {
+    position: relative;
+    left: 10px;
+   }
+   .topp{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.ibcv{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bootom {
+position: relative;
+left: 10px;
+}
+}

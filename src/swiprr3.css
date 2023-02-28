@@ -1,0 +1,33 @@
+
+
+.swip3 .swiper {
+  width: 200px;
+}
+
+.swip3 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swip3 .swiper-slide img {
+  display: block;
+  width: 200px;
+ 
+  object-fit: cover;
+}
+
+@media only screen and 
+(max-width: 567px) {
+  .sw2{
+    position: relative;
+   
+    bottom: 70px;
+  }
+}
+ 

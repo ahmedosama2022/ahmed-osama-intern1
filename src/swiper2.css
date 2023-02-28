@@ -1,0 +1,129 @@
+
+  
+ 
+  
+  .swipr .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swipr .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swipr .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swipr{
+    position: relative;
+    bottom: 550px;
+    padding:0px 40px;
+  }
+
+  .fond{position:absolute;padding-top:85px;top:0;left:0; right:0;bottom:0;
+    background-color:#65C6BB;}
+  
+  .carreaux_presentation_light
+  {
+    display:table-cell;
+    width:250px; height:250px;
+    background-size:cover;
+    overflow: hidden;
+    position: relative;
+  }
+  .carreaux_presentation_light .shadow_swhow_mini
+  {
+    
+    position: absolute;
+    z-index: 1000;
+    top:0;left:0;right:0;bottom:0;
+    
+  }
+  .carreaux_presentation_light:hover .shadow_swhow_mini
+  {
+    background-color:rgba(19,30,33,0.4);
+  }
+  .carreaux_presentation_light .deroul_titre
+  {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    padding: 7px;
+    z-index: 1000;
+    top:60%;left:-80%;
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 13px; width: 80%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+  
+  }
+  .carreaux_presentation_light:hover .deroul_titre
+  {
+    background: #c39209;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 3px dotted #fff;
+    font-size: 20px; left:0px;
+    
+  }
+  .deroul_titre:hover{
+    background-color: #0a1e33;
+  }
+  
+  .carreaux_presentation_light .deroul_soustitre
+  {
+    position: absolute;
+    font-family: 'Roboto';
+    padding: 5px;
+    z-index: 1000;
+    top:60%;right:-85%;
+    margin-top: 25px;
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 11px; width: 80%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+  }
+  .carreaux_presentation_light:hover .deroul_soustitre
+  {
+    background-color:#417c74;right:0px;
+  }
+  .carreaux_presentation_light{
+    background-image: url(https://pure-soft.com/designs/10/images/tab/7.jpg);
+    border-bottom: solid 8px #c39209;
+    height: 350px;
+  }
+  
+  .div854{
+    display: flex;
+    justify-content: space-between;
+  }
+  .div4697{
+    background-color:  #eee;
+    padding: 5px 10px;
+  }
+  .imgsw:hover{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    -webkit-transition: all 0.3s linear;
+    transform: scale(1.08);
+  }
+  
